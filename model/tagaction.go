@@ -10,7 +10,7 @@ const (
 	ActionNoGenFieldJsonDir  = "nogenfield_jsondir"
 	ActionNoGenFieldBinary   = "nogenfield_binary"
 	ActionNoGenFieldPbBinary = "nogenfield_pbbin"
-	ActionNoGennFieldLua  	 = "nogenfield_lua"
+	ActionNoGennFieldLua     = "nogenfield_lua"
 	ActionNoGennFieldCsharp  = "nogenfield_csharp"
 	ActionNoGenTable         = "nogentab"
 )
