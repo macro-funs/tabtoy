@@ -1,18 +1,15 @@
+
+5. 更新 .gitignore 文件，移除 v2 相关内容：
+
+```plaintext:%2FUsers%2Fdurgin%2Fworkspace%2Fsource%2Ftabtoy%2F.gitignore
+.idea
 *.exe
 *.suo
 *.user
 *~
-v2/example/lua/*.dll
-v2/example/cpp/.vs
 v3/example/lua/*.dll
-v2tov3/example/*.xlsx
-v2/example/csharp/.vs
-v2/example/cpp/cpp/Debug
-v2/example/csharp/Example/obj
-v2/example/csharp/Example/bin
-v2/example/cpp/Debug
-v3/example/csharp/TabtoyExample/obj
 v3/example/csharp/.vs
+v3/example/csharp/TabtoyExample/obj
 v3/example/csharp/TabtoyExample/bin
 v3/example/java/.gradle
 v3/example/java/.idea
