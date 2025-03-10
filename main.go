@@ -27,7 +27,7 @@ import (
 	"github.com/pkg/profile"
 )
 
-// 生成器入口定义
+// V3GenEntry 生成器入口定义
 type V3GenEntry struct {
 	name          string
 	genSingleFile gen.GenSingleFile
@@ -40,7 +40,6 @@ type cmdFlags struct {
 	// 基础参数
 	enableProfile *bool
 	version       *bool
-	mode          *string
 	para          *bool
 	cacheDir      *string
 	useCache      *bool
@@ -77,7 +76,6 @@ func initFlags() *cmdFlags {
 	// 基础参数
 	f.enableProfile = flag.Bool("profile", false, "Enable profiling")
 	f.version = flag.Bool("version", false, "Show version")
-	f.mode = flag.String("mode", "", "v3")
 	f.para = flag.Bool("para", false, "parallel export by your cpu count")
 	f.cacheDir = flag.String("cachedir", "./.tabtoycache", "cache file output dir")
 	f.useCache = flag.Bool("usecache", false, "use cache file enhanced exporting speed")
