@@ -3,7 +3,7 @@ package jsondata
 import (
 	"encoding/json"
 	"fmt"
-	model2 "github.com/davyxu/tabtoy/model"
+	model2 "github.com/macro-funs/tabkit/model"
 	"io/ioutil"
 )
 
@@ -15,7 +15,7 @@ func Output(globals *model2.Globals, param string) (err error) {
 		headers := globals.Types.AllFieldByName(tab.OriginalHeaderType)
 
 		fileData := map[string]interface{}{
-			"@Tool":    "github.com/davyxu/tabtoy",
+			"@Tool":    "github.com/macro-funs/tabkit",
 			"@Version": globals.Version,
 		}
 
@@ -63,7 +63,7 @@ func Output(globals *model2.Globals, param string) (err error) {
 func Generate(globals *model2.Globals) (data []byte, err error) {
 
 	fileData := map[string]interface{}{
-		"@Tool":    "github.com/davyxu/tabtoy",
+		"@Tool":    "github.com/macro-funs/tabkit",
 		"@Version": globals.Version,
 	}
 

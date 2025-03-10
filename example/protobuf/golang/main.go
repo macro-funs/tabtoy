@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/golang/protobuf/proto"
+	"google.golang.org/protobuf/proto"
 	"io/ioutil"
 	"os"
 )

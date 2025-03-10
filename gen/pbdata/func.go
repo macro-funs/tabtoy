@@ -1,10 +1,10 @@
 package pbdata
 
 import (
-	model2 "github.com/davyxu/tabtoy/model"
-	"github.com/golang/protobuf/proto"
-	descriptorpb "github.com/golang/protobuf/protoc-gen-go/descriptor"
+	model2 "github.com/macro-funs/tabkit/model"
+	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
+	descriptorpb "google.golang.org/protobuf/types/descriptorpb"
 	"strconv"
 )
 

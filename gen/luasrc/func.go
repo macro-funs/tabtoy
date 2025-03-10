@@ -1,8 +1,8 @@
 package luasrc
 
 import (
-	"github.com/davyxu/tabtoy/gen"
-	model2 "github.com/davyxu/tabtoy/model"
+	"github.com/macro-funs/tabkit/gen"
+	model2 "github.com/macro-funs/tabkit/model"
 	"strings"
 	"text/template"
 )

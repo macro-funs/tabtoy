@@ -2,12 +2,12 @@ package tests
 
 import (
 	"encoding/json"
-	"github.com/davyxu/tabtoy/compiler"
-	"github.com/davyxu/tabtoy/gen"
-	"github.com/davyxu/tabtoy/gen/gosrc"
-	"github.com/davyxu/tabtoy/gen/jsondata"
-	helper2 "github.com/davyxu/tabtoy/helper"
-	"github.com/davyxu/tabtoy/model"
+	"github.com/macro-funs/tabkit/compiler"
+	"github.com/macro-funs/tabkit/gen"
+	"github.com/macro-funs/tabkit/gen/gosrc"
+	"github.com/macro-funs/tabkit/gen/jsondata"
+	helper2 "github.com/macro-funs/tabkit/helper"
+	"github.com/macro-funs/tabkit/model"
 	"io/ioutil"
 	"path/filepath"
 	"reflect"

@@ -1,8 +1,8 @@
 package compiler
 
 import (
-	helper2 "github.com/davyxu/tabtoy/helper"
-	model2 "github.com/davyxu/tabtoy/model"
+	helper2 "github.com/macro-funs/tabkit/helper"
+	model2 "github.com/macro-funs/tabkit/model"
 	"github.com/pkg/errors"
 	"strings"
 )

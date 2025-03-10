@@ -2,9 +2,9 @@ package cssrc
 
 import (
 	"fmt"
-	"github.com/davyxu/tabtoy/gen/bindata"
-	model2 "github.com/davyxu/tabtoy/model"
-	"github.com/davyxu/tabtoy/util"
+	"github.com/macro-funs/tabkit/gen/bindata"
+	model2 "github.com/macro-funs/tabkit/model"
+	"github.com/macro-funs/tabkit/util"
 	"text/template"
 )
 

@@ -1,7 +1,7 @@
 package bindata
 
 import (
-	model2 "github.com/davyxu/tabtoy/model"
+	model2 "github.com/macro-funs/tabkit/model"
 )
 
 // 写入表的一行

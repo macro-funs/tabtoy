@@ -1,9 +1,9 @@
 package compiler
 
 import (
-	"github.com/davyxu/tabtoy/helper"
-	model2 "github.com/davyxu/tabtoy/model"
-	"github.com/davyxu/tabtoy/report"
+	"github.com/macro-funs/tabkit/helper"
+	model2 "github.com/macro-funs/tabkit/model"
+	"github.com/macro-funs/tabkit/report"
 	"strings"
 )
 

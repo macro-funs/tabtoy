@@ -2,8 +2,8 @@ package javasrc
 
 import (
 	"fmt"
-	model2 "github.com/davyxu/tabtoy/model"
-	"github.com/davyxu/tabtoy/util"
+	model2 "github.com/macro-funs/tabkit/model"
+	"github.com/macro-funs/tabkit/util"
 	"text/template"
 )
 

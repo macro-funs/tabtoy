@@ -1,10 +1,10 @@
 package compiler
 
 import (
-	checker2 "github.com/davyxu/tabtoy/checker"
-	"github.com/davyxu/tabtoy/helper"
-	model2 "github.com/davyxu/tabtoy/model"
-	report2 "github.com/davyxu/tabtoy/report"
+	checker2 "github.com/macro-funs/tabkit/checker"
+	"github.com/macro-funs/tabkit/helper"
+	model2 "github.com/macro-funs/tabkit/model"
+	report2 "github.com/macro-funs/tabkit/report"
 )
 
 func Compile(globals *model2.Globals) (ret error) {

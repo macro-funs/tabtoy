@@ -67,13 +67,13 @@ ID | 名称
 ## 编写导出shell
 
 
-[下载tabtoy](https://github.com/davyxu/tabtoy/releases)
+[下载tabtoy](https://github.com/macro-funs/tabkit/releases)
 
 ```bash
 tabtoy.exe -mode=v3 -index=Index.xlsx -json_out=table_gen.json
 ```
 
-[完整例子文件](https://github.com/davyxu/tabtoy/tree/master/v3/example/tutorial)
+[完整例子文件](https://github.com/macro-funs/tabkit/tree/master/v3/example/tutorial)
 
 # 导出数据/源码/类型
 
@@ -110,7 +110,7 @@ tabtoy.exe -mode=v3 -index=Index.xlsx -package=main -go_out=table_gen.go -json_o
 		os.Exit(1)
 	}
 ```
-[完整Golang例子](https://github.com/davyxu/tabtoy/tree/master/v3/example/golang)
+[完整Golang例子](https://github.com/macro-funs/tabkit/tree/master/v3/example/golang)
 
 ## C#使用表格导出二进制数据
 
@@ -162,7 +162,7 @@ using (var stream = new FileStream("../../../../binary/table_gen.bin", FileMode.
 
 * C#也可以读取JSON数据格式, 由于C#第三方JSON不统一, 请自行使用生成的源码与第三方源码对接
 
-[完整C#例子](https://github.com/davyxu/tabtoy/tree/master/v3/example/csharp)
+[完整C#例子](https://github.com/macro-funs/tabkit/tree/master/v3/example/csharp)
 
 ## Java使用表格导出的JSON数据
 
@@ -218,7 +218,7 @@ public class Main {
 }
 ```
 
-[完整Java例子](https://github.com/davyxu/tabtoy/tree/master/v3/example/java)
+[完整Java例子](https://github.com/macro-funs/tabkit/tree/master/v3/example/java)
 
 ## Lua使用表格导出的Lua数据(测试中)
 
@@ -249,7 +249,7 @@ tabtoy.exe -mode=v3 -index=Index.xlsx -lua_out=table_gen.lua
     print(tab.ActorType.Pharah,  tab.ActorType[3])
 ```
 
-[完整Lua例子](https://github.com/davyxu/tabtoy/tree/master/v3/example/lua)
+[完整Lua例子](https://github.com/macro-funs/tabkit/tree/master/v3/example/lua)
 
 ## 将表格类型信息导出为JSON格式
 
@@ -289,7 +289,7 @@ go install google.golang.org/protobuf/cmd/protoc-gen-go
 protoc --go_out=. ./table.proto -I .
 ```
 
-[完整Golang使用Protobuf例子](https://github.com/davyxu/tabtoy/tree/master/v3/example/protobuf/golang)
+[完整Golang使用Protobuf例子](https://github.com/macro-funs/tabkit/tree/master/v3/example/protobuf/golang)
 
 # 按表导出
 
@@ -336,7 +336,7 @@ tabtoy -mode=v3 -index=Index.xlsx -package=main -go_out=table_gen.json -json_dir
 		fmt.Println(k, v)
 	}
 ```
-[完整Golang例子](https://github.com/davyxu/tabtoy/tree/master/v3/example/golang)
+[完整Golang例子](https://github.com/macro-funs/tabkit/tree/master/v3/example/golang)
 
 ## Lua按需读取Lua数据
 
@@ -374,8 +374,8 @@ tabtoy -mode=v3 -index=Index.xlsx -lua_dir=.
     print(tabType.ActorType.Pharah,  tabType.ActorType[3])
 ```
 
-[完整Lua例子](https://github.com/davyxu/tabtoy/tree/master/v3/example/lua)
-[导出的Lua表](https://github.com/davyxu/tabtoy/tree/master/v3/example/luasrc)
+[完整Lua例子](https://github.com/macro-funs/tabkit/tree/master/v3/example/lua)
+[导出的Lua表](https://github.com/macro-funs/tabkit/tree/master/v3/example/luasrc)
 
 ## C#按需读取二进制数据
 导出命令行:
@@ -435,10 +435,10 @@ static void LoadSpecifiedTable()
 }
 ```
 
-[完整C#例子](https://github.com/davyxu/tabtoy/tree/master/v3/example/csharp)
+[完整C#例子](https://github.com/macro-funs/tabkit/tree/master/v3/example/csharp)
 
 ## Golang使用Protobuf按需读取二进制数据
-[Golang例子](https://github.com/davyxu/tabtoy/tree/master/v3/example/protobuf/golang)
+[Golang例子](https://github.com/macro-funs/tabkit/tree/master/v3/example/protobuf/golang)
 
 
 
@@ -690,7 +690,7 @@ nogentab| Index表 | 被标记的表不会导出到任何输出中
 
 * V2版本将不再获得更新
 
-* [V2文档](https://github.com/davyxu/tabtoy/blob/master/README_v2.md)
+* [V2文档](https://github.com/macro-funs/tabkit/blob/master/README_v2.md)
 
 # 备注
 
@@ -698,4 +698,4 @@ nogentab| Index表 | 被标记的表不会导出到任何输出中
 
 知乎: [http://www.zhihu.com/people/sunicdavy](http://www.zhihu.com/people/sunicdavy)
 
-提交bug及特性: [https://github.com/davyxu/tabtoy/issues](https://github.com/davyxu/tabtoy/issues)
+提交bug及特性: [https://github.com/macro-funs/tabkit/issues](https://github.com/macro-funs/tabkit/issues)

@@ -2,8 +2,8 @@ package pbdata
 
 import (
 	"fmt"
-	model2 "github.com/davyxu/tabtoy/model"
-	"github.com/golang/protobuf/proto"
+	model2 "github.com/macro-funs/tabkit/model"
+	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/types/dynamicpb"
 	"io/ioutil"

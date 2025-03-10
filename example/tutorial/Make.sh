@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [[ ! -f "./tabtoy" ]]; then
-     echo "请在https://github.com/davyxu/tabtoy/releases下载最新的tabtoy, 并放置于本目录"
+     echo "请在https://github.com/macro-funs/tabkit/releases下载最新的tabtoy, 并放置于本目录"
      exit 1
 fi
 

@@ -2,7 +2,7 @@ package model
 
 import (
 	"fmt"
-	"github.com/davyxu/tabtoy/util"
+	"github.com/macro-funs/tabkit/util"
 )
 
 type Cell struct {

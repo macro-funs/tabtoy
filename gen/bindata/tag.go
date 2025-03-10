@@ -1,7 +1,7 @@
 package bindata
 
 import (
-	model2 "github.com/davyxu/tabtoy/model"
+	model2 "github.com/macro-funs/tabkit/model"
 )
 
 func MakeTag(globals *model2.Globals, tf *model2.TypeDefine, fieldIndex int) uint32 {

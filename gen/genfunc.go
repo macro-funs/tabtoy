@@ -1,7 +1,7 @@
 package gen
 
 import (
-	"github.com/davyxu/tabtoy/model"
+	"github.com/macro-funs/tabkit/model"
 )
 
 type GenSingleFile func(globals *model.Globals) (data []byte, err error)

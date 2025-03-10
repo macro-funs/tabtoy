@@ -1,8 +1,8 @@
 package checker
 
 import (
-	model2 "github.com/davyxu/tabtoy/model"
-	"github.com/davyxu/tabtoy/report"
+	model2 "github.com/macro-funs/tabkit/model"
+	"github.com/macro-funs/tabkit/report"
 )
 
 // 枚举值的解析是放在输出端处理的, 例如json中, 所以在这里提前检查

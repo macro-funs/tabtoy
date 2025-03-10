@@ -1,8 +1,8 @@
 package compiler
 
 import (
-	model2 "github.com/davyxu/tabtoy/model"
-	"github.com/davyxu/tabtoy/report"
+	model2 "github.com/macro-funs/tabkit/model"
+	"github.com/macro-funs/tabkit/report"
 	"reflect"
 )
 

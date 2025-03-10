@@ -1,6 +1,6 @@
 VERSION := 3.1.4
-BUILD_SOURCE_PACKAGE := github.com/davyxu/tabtoy/build
-BINARY_PACKAGE := github.com/davyxu/tabtoy
+BUILD_SOURCE_PACKAGE := github.com/macro-funs/tabkit/build
+BINARY_PACKAGE := github.com/macro-funs/tabkit
 BINARY_NAME := tabtoy
 BUILD_TIME := $(shell date -u '+%Y-%m-%dT%H:%M:%SZ')
 
